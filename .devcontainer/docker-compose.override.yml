@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mymongoapi:
+    volumes:
+      - /mnt/c/Users/dcorreia/Desktop/Learnings:/workspace
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi\\MyMongoApi.csproj": {}
+    "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi\\MyMongoApi.csproj": {
+    "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi\\MyMongoApi.csproj",
+        "projectUniqueName": "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi.csproj",
         "projectName": "MyMongoApi",
-        "projectPath": "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi\\MyMongoApi.csproj",
+        "projectPath": "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi.csproj",
         "packagesPath": "C:\\Users\\dcorreia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dcorreia\\Desktop\\Learnings\\MyMongoApi\\obj\\",
+        "outputPath": "C:\\Users\\dcorreia\\Desktop\\Learnings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,8 +32,8 @@
           "https://nexus.in.devexperts.com/repository/dx-nuget/": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -50,12 +50,12 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "MongoDB.Driver": {
               "target": "Package",
-              "version": "[9.0.0-rc.1.24452.1, )"
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

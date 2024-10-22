@@ -4,10 +4,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["MyMongoApi/MyMongoApi.csproj", "MyMongoApi/"]
-RUN dotnet restore "MyMongoApi/MyMongoApi.csproj"
+COPY ["MyMongoApi.csproj", "./"]
+RUN dotnet restore "MyMongoApi.csproj"
 COPY . .
-WORKDIR "/src/MyMongoApi"
+WORKDIR "/src"
 RUN dotnet build "MyMongoApi.csproj" -c Release -o /app/build
 
 FROM build AS publish

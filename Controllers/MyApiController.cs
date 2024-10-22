@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using MyMongoApi.Services;
 using MyMongoApi.Models;
 
-namespace MyProject.Controllers
+namespace MyProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
